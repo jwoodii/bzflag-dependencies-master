@@ -1,0 +1,52 @@
+# Output directories
+/output-*/
+/licenses/
+
+# PDCurses build files
+src/pdcurses/wincon/*.obj
+src/pdcurses/wincon/*.lib
+
+# zlib build files
+src/zlib/*.obj
+src/zlib/*.exp
+src/zlib/*.lib
+src/zlib/*.pdb
+src/zlib/*.dll
+src/zlib/*.res
+
+# libpng build files
+src/libpng/*.lib
+src/libpng/*.obj
+src/libpng/pnglibconf.h
+
+# c-ares build files
+src/c-ares/msvc*/
+
+# curl build files
+src/curl/builds/*
+src/curl/winbuild/*.inc
+src/curl/winbuild/*.idb
+
+# regex build files
+src/regex/regex*/
+src/regex/regex.vcxproj.user
+
+# GLEW build files
+src/glew/bin/
+src/glew/lib/
+src/glew/build/vc12/tmp/
+
+# SDL2 build files
+src/SDL2/VisualC/Win32/
+src/SDL2/VisualC/x64/
+src/SDL2/VisualC/*/Win32/
+src/SDL2/VisualC/*/x64/
+src/SDL2/VisualC/tests/*/Win32/
+src/SDL2/VisualC/tests/*/x64/
+src/SDL2/VisualC/tests/*/*.bmp
+src/SDL2/VisualC/tests/*/*.wav
+src/SDL2/VisualC/tests/*/*.dat
+
+# Other Visual C++ files
+*.VC.db
+*.suo
